@@ -19,9 +19,9 @@ var birdFlySound,birdSelectSound,pigSnortSound;
 
 function preload() {
     getBackgroundImg();
-    birdFlySound = loadSound("sprites/sounds_rock_flying.mp3");
-    birdSelectSound = loadSound("sprites/sounds_rock_flying.mp3");
-    pigSnortSound = loadSound("sprites/sounds_rock_flying.mp3");
+    birdFlySound = loadSound("sounds_rock_flying.mp3");
+    birdSelectSound = loadSound("sounds_rock_flying.mp3");
+    pigSnortSound = loadSound("sounds_rock_flying.mp3");
 
 }
 
