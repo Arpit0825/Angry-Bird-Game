@@ -9,7 +9,7 @@ var backgroundImg,platform;
 var bird,bird2,bird3,bird4,slingshot,bomb;
 
 var gameState = "onSling";
-var bg = "sprites/bg1.png";
+var bg = "bg1.png";
 var score = 0;
 var birds = [];
 var birdFlySound,birdSelectSound,pigSnortSound;
