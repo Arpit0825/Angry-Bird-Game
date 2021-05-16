@@ -12,13 +12,14 @@ var gameState = "onSling";
 var bg = "bg1.png";
 var score = 0;
 var birds = [];
-var birdFlySound,birdSelectSound,pigSnortSound;
+var birdFlySound,birdSelectSound,pigSnortSound,bg1;
 
 
 
 
 function preload() {
     getBackgroundImg();
+    bg1 = loadImage("bg1.png");
     birdFlySound = loadSound("sounds_rock_flying.mp3");
     birdSelectSound = loadSound("sounds_rock_flying.mp3");
     pigSnortSound = loadSound("sounds_rock_flying.mp3");
@@ -67,7 +68,7 @@ function draw(){
     if(backgroundImg){
         background(backgroundImg);
     }else{
-        background(bg);
+        background(bg1);
     }
         noStroke();
         textSize(35)
